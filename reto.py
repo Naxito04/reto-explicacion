@@ -1,13 +1,3 @@
-# Grupo 7 — Funciones, parámetros y docstrings
-
-## Integrantes y Tema
-* **Integrantes:** Ignacio Ibáñez-Rizo, Pablo Legorburo y Jorge Durá
-* **Tema:** Funciones en Python, parámetros, argumentos, valores por defecto, instrucción `return`, docstrings y comentarios.
-
----
-
-## Código del Ejemplo
-```python
 def calcular_precio(precio, cantidad=1):
     """Calcula el precio total multiplicando el precio unitario por la cantidad.
 
@@ -18,6 +8,7 @@ def calcular_precio(precio, cantidad=1):
     Returns:
         float | int: El precio total resultante de la operación.
     """
+
     return precio * cantidad
 
 # Dos argumentos
